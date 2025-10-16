@@ -1,0 +1,31 @@
+name: "SDM Proxy"
+description: "REST proxy pre Broadcom CA Service Desk Manager 17.4. Slúži ako rozhranie pre LLM/OpenWebUI na dopytovanie, prehľad a správu incidentov, priorít a kategórií."
+version: "1.0.0"
+
+type: "external_tool"
+
+api:
+  base_url: "http://10.11.36.14:3333"
+  endpoints:
+    - path: "/api/incidents/search"
+      method: "POST"
+      description: "Vyhľadávanie incidentov podľa parametrov (attrs, filter, size)"
+      input_schema:
+        attrs: "string"
+        filter: "string (voliteľné)"
+        size: "integer (voliteľné)"
+    - path: "/api/priorities/search"
+      method: "POST"
+      description: "Zoznam priorít incidentov"
+    - path: "/api/categories/search"
+      method: "POST"
+      description: "Zoznam kategórií (Request Area)"
+    - path: "/api/statuses/search"
+      method: "POST"
+      description: "Zoznam stavov incidentov"
+    - path: "/api/objects/list"
+      method: "GET"
+      description: "Zoznam všetkých dostupných SDM REST objektov"
+    - path: "/api/health/full"
+      method: "GET"
+      description: "Komplexná diagnostika SDM pripojenia"

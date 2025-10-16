@@ -1,0 +1,298 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SDM Proxy API",
+    "description": "Bridge pre Broadcom Service Desk Manager (CA SDM 17.4)",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/priorities/search": {
+      "post": {
+        "tags": [
+          "priorities"
+        ],
+        "summary": "Search Priorities",
+        "operationId": "search_priorities_api_priorities_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "type": "object",
+                "title": "Payload",
+                "default": {
+                  "attrs": "id,common_name",
+                  "size": 50,
+                  "debug": false
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/statuses/search": {
+      "post": {
+        "tags": [
+          "statuses"
+        ],
+        "summary": "Search Statuses",
+        "operationId": "search_statuses_api_statuses_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "type": "object",
+                "title": "Payload",
+                "default": {
+                  "attrs": "id,common_name"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/categories/search": {
+      "post": {
+        "tags": [
+          "categories"
+        ],
+        "summary": "Search Categories",
+        "operationId": "search_categories_api_categories_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "type": "object",
+                "title": "Payload",
+                "default": {
+                  "attrs": "id,common_name"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/objects/list": {
+      "get": {
+        "tags": [
+          "objects"
+        ],
+        "summary": "List Sdm Objects",
+        "description": "Vracia statick\u00fd zoznam zn\u00e1mych REST objektov SDM 17.4.\nLLM m\u00f4\u017ee pou\u017ei\u0165 tieto n\u00e1zvy pre volania na sdmproxy.",
+        "operationId": "list_sdm_objects_api_objects_list_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/status/": {
+      "get": {
+        "tags": [
+          "status"
+        ],
+        "summary": "List Statuses",
+        "description": "Zoznam v\u0161etk\u00fdch stavov (status)",
+        "operationId": "list_statuses_api_status__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/status/{status_id}": {
+      "get": {
+        "tags": [
+          "status"
+        ],
+        "summary": "Get Status Detail",
+        "description": "Detail statusu",
+        "operationId": "get_status_detail_api_status__status_id__get",
+        "parameters": [
+          {
+            "name": "status_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Status Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/health/full": {
+      "get": {
+        "tags": [
+          "health"
+        ],
+        "summary": "Full Health Check",
+        "description": "Prever\u00ed pripojenie k SDM API pre viacer\u00e9 objekty.\nVr\u00e1ti detailn\u00fd stav jednotliv\u00fdch ent\u00edt.",
+        "operationId": "full_health_check_api_health_full_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "http://10.11.36.14:3333",
+      "description": "Local SDM Proxy"
+    }
+  ]
+}

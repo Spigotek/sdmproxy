@@ -1,0 +1,45 @@
+2025-10-16 13:50:14,426 [INFO] - Logger initialized. Writing to /opt/sdmproxy/app/../logs/sdmproxy.log
+2025-10-16 13:50:14,473 [INFO] - [AUTH] No valid cached token found — will request new one
+2025-10-16 13:50:14,475 [INFO] - 🔗 Registered router /api/incidents
+2025-10-16 13:50:14,476 [INFO] - 🔗 Registered router /api/requests
+2025-10-16 13:50:14,477 [INFO] - 🔗 Registered router /api/changes
+2025-10-16 13:50:14,478 [INFO] - 🔗 Registered router /api/issues
+2025-10-16 13:50:14,479 [INFO] - 🔗 Registered router /api/contacts
+2025-10-16 13:50:14,480 [INFO] - 🔗 Registered router /api/groups
+2025-10-16 13:50:14,481 [INFO] - 🔗 Registered router /api/locations
+2025-10-16 13:50:14,482 [INFO] - 🔗 Registered router /api/priorities
+2025-10-16 13:50:14,483 [INFO] - 🔗 Registered router /api/urgencies
+2025-10-16 13:50:14,484 [INFO] - 🔗 Registered router /api/impacts
+2025-10-16 13:50:14,485 [INFO] - 🔗 Registered router /api/categories
+2025-10-16 13:50:14,486 [INFO] - 🔗 Registered router /api/statuses
+2025-10-16 13:50:14,487 [INFO] - 🔗 Registered router /api/request_types
+2025-10-16 13:50:14,488 [INFO] - 🔗 Registered router /api/roles
+2025-10-16 13:50:14,489 [INFO] - 🔗 Registered router /api/assets
+2025-10-16 13:50:14,490 [INFO] - 🔗 Registered router /api/cis
+2025-10-16 13:50:14,494 [INFO] - === SDM Proxy Service Loaded ===
+2025-10-16 14:18:56,811 [INFO] - Logger initialized. Writing to /opt/sdmproxy/app/../logs/sdmproxy.log
+2025-10-16 14:18:56,859 [INFO] - [AUTH] No valid cached token found — will request new one
+2025-10-16 14:18:56,861 [INFO] - 🔗 Registered router /api/incidents
+2025-10-16 14:18:56,862 [INFO] - 🔗 Registered router /api/requests
+2025-10-16 14:18:56,863 [INFO] - 🔗 Registered router /api/changes
+2025-10-16 14:18:56,863 [INFO] - 🔗 Registered router /api/issues
+2025-10-16 14:18:56,865 [INFO] - 🔗 Registered router /api/contacts
+2025-10-16 14:18:56,866 [INFO] - 🔗 Registered router /api/groups
+2025-10-16 14:18:56,867 [INFO] - 🔗 Registered router /api/locations
+2025-10-16 14:18:56,868 [INFO] - 🔗 Registered router /api/priorities
+2025-10-16 14:18:56,868 [INFO] - 🔗 Registered router /api/urgencies
+2025-10-16 14:18:56,869 [INFO] - 🔗 Registered router /api/impacts
+2025-10-16 14:18:56,870 [INFO] - 🔗 Registered router /api/categories
+2025-10-16 14:18:56,871 [INFO] - 🔗 Registered router /api/statuses
+2025-10-16 14:18:56,872 [INFO] - 🔗 Registered router /api/request_types
+2025-10-16 14:18:56,873 [INFO] - 🔗 Registered router /api/roles
+2025-10-16 14:18:56,874 [INFO] - 🔗 Registered router /api/assets
+2025-10-16 14:18:56,875 [INFO] - 🔗 Registered router /api/cis
+2025-10-16 14:18:57,866 [INFO] - [AUTH] Requesting new SDM token from http://10.11.35.35:8050/caisd-rest/rest_access
+2025-10-16 14:18:57,878 [ERROR] - [AUTH] Authentication failed (401): <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error>
+    <message>Invalid Authorization message header.</message>
+    <status>401</status>
+</error>
+
+2025-10-16 14:18:57,878 [ERROR] - [GENERIC][QUERY] SDM XML login failed (401)

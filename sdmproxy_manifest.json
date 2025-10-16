@@ -1,0 +1,95 @@
+{
+  "name": "sdmproxy",
+  "description": "Middleware API pre Broadcom CA Service Desk Manager (SDM 17.4). Poskytuje CRUD, reporting a workflow operácie pre LLM modely.",
+  "version": "1.0.0",
+  "base_url": "http://10.11.36.14:3333",
+  "authentication": {
+    "type": "internal_session",
+    "token_endpoint": "/api/health/",
+    "note": "sdmproxy spravuje SDM session key automaticky"
+  },
+  "endpoints": [
+    {
+      "path": "/api/incidents/",
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "summary": "Operácie s incidentmi (CR objekty)",
+      "examples": [
+        {
+          "action": "Získaj všetky incidenty s prioritou 1",
+          "request": "GET /api/incidents/?priority=1",
+          "response": "{ 'data': [...] }"
+        },
+        {
+          "action": "Vytvor nový incident",
+          "request": "POST /api/incidents/",
+          "body": { "summary": "Test incident", "priority": "2", "category": "Hardware" }
+        }
+      ]
+    },
+    {
+      "path": "/api/users/",
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "summary": "Správa používateľov (CNT objekty)"
+    },
+    {
+      "path": "/api/categories/",
+      "methods": ["GET"],
+      "summary": "Zoznam kategórií SDM"
+    },
+    {
+      "path": "/api/groups/",
+      "methods": ["GET", "POST"],
+      "summary": "Skupiny technikov, servisných tímov a organizačných jednotiek"
+    },
+    {
+      "path": "/api/organizations/",
+      "methods": ["GET", "POST"],
+      "summary": "Organizácie (zákazníci, interné oddelenia)"
+    },
+    {
+      "path": "/api/roles/",
+      "methods": ["GET"],
+      "summary": "Zoznam rolí a ich priradených používateľov"
+    },
+    {
+      "path": "/api/ci/",
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "summary": "Konfiguračné položky (Configuration Items)"
+    },
+    {
+      "path": "/api/slas/",
+      "methods": ["GET"],
+      "summary": "Service Level Agreements - SLA definície"
+    },
+    {
+      "path": "/api/tickets/",
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "summary": "Jednotný endpoint pre CR, REQ, PRB a CHG tikety"
+    },
+    {
+      "path": "/api/workflows/",
+      "methods": ["GET", "POST"],
+      "summary": "Získanie a spustenie workflow procesov"
+    },
+    {
+      "path": "/api/reports/",
+      "methods": ["GET"],
+      "summary": "Štatistiky a prehľady (napr. podľa priority alebo stavu)"
+    },
+    {
+      "path": "/api/attachments/",
+      "methods": ["GET", "POST"],
+      "summary": "Nahrávanie a sťahovanie príloh"
+    },
+    {
+      "path": "/api/health/",
+      "methods": ["GET"],
+      "summary": "Kontrola stavu SDM proxy služby a platnosti tokenu"
+    },
+    {
+      "path": "/api/metadata/",
+      "methods": ["GET"],
+      "summary": "Manifest všetkých endpointov (používa ho LLM)"
+    }
+  ]
+}

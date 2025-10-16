@@ -1,0 +1,110 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "SDM Proxy API (WebUI Compatible)",
+    "version": "1.0.0",
+    "description": "Bridge pre Broadcom Service Desk Manager (CA SDM 17.4) - OpenWebUI compatible version"
+  },
+  "servers": [
+    { "url": "http://10.11.36.14:3333" }
+  ],
+  "paths": {
+    "/api/priorities/search": {
+      "post": {
+        "summary": "Získaj všetky priority zo Service Desku",
+        "operationId": "listPriorities",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "attrs": {
+                    "type": "string",
+                    "example": "id,common_name"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Zoznam priorít zo Service Desku",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "priorities": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": { "type": "integer", "example": 500 },
+                          "label": { "type": "string", "example": "Critical" },
+                          "rel_attr": { "type": "integer", "example": 1 }
+                        }
+                      }
+                    },
+                    "count": { "type": "integer", "example": 6 },
+                    "source": { "type": "string", "example": "SDM" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/statuses/search": {
+      "post": {
+        "summary": "Získaj všetky statusy zo Service Desku",
+        "operationId": "listStatuses",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "attrs": {
+                    "type": "string",
+                    "example": "id,common_name"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Zoznam statusov zo Service Desku",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "statuses": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": { "type": "integer" },
+                          "label": { "type": "string" }
+                        }
+                      }
+                    },
+                    "count": { "type": "integer" },
+                    "source": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

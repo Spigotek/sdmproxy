@@ -1,0 +1,264 @@
+2025-10-10 22:13:15,943 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:13:17,732 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:16:09,836 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 22:16:09,893 [INFO] - SDM login response: 201 {"rest_access":{"@id":401364,"@REL_ATTR":401364,"@COMMON_NAME":1456361683,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401364","@rel":"self"},"access_key":1456361683,"expiration_date":1760732140}}
+2025-10-10 22:16:09,894 [INFO] - New SDM session token acquired successfully: 1456361683, expires at 1760732140
+2025-10-10 22:16:09,894 [INFO] - GET http://10.11.35.35:8050/caisd-rest/status params=None
+2025-10-10 22:16:09,897 [INFO] - Response 404: 
+2025-10-10 22:20:58,737 [INFO] - GET http://10.11.35.35:8050/caisd-rest/status params=None
+2025-10-10 22:20:58,746 [INFO] - Response 404: 
+2025-10-10 22:22:12,126 [INFO] - GET http://10.11.35.35:8050/caisd-rest/status params=None
+2025-10-10 22:22:12,133 [INFO] - Response 404: 
+2025-10-10 22:25:34,684 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:25:37,058 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:30:11,791 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:30:24,566 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 22:30:24,641 [INFO] - SDM login response: 201 {"rest_access":{"@id":401365,"@REL_ATTR":401365,"@COMMON_NAME":1415462586,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401365","@rel":"self"},"access_key":1415462586,"expiration_date":1760732995}}
+2025-10-10 22:30:24,641 [INFO] - New SDM session token acquired successfully: 1415462586, expires at 1760732995
+2025-10-10 22:30:24,642 [INFO] - GET http://10.11.35.35:8050/caisd-rest/rest_access params=None
+2025-10-10 22:30:25,660 [INFO] - Response 200: {"collection_rest_access":{"@COUNT":25,"@START":1,"@TOTAL_COUNT":33,"link":[{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access?start=26&size=25","@rel":"next"},{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access?start=1&size=33","@rel":"all"}],"rest_access":[{"@id":400465,"@REL_ATTR":400465,"@COMMON_NAME":1132190576,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/400465"
+2025-10-10 22:46:24,661 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 22:48:43,698 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:06:54,019 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:07:01,374 [INFO] - Fetching priorities with attrs: id,label
+2025-10-10 23:07:01,374 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:07:01,436 [INFO] - SDM login response: 201 {"rest_access":{"@id":401366,"@REL_ATTR":401366,"@COMMON_NAME":373457109,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401366","@rel":"self"},"access_key":373457109,"expiration_date":1760735191}}
+2025-10-10 23:07:01,436 [INFO] - New SDM session token acquired successfully: 373457109, expires at 1760735191
+2025-10-10 23:07:01,436 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:07:01,469 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:11:25,309 [INFO] - Fetching priorities with attrs: id,label
+2025-10-10 23:11:25,309 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:11:25,355 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:16:04,206 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:16:13,428 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:16:13,428 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:16:13,495 [INFO] - SDM login response: 201 {"rest_access":{"@id":401367,"@REL_ATTR":401367,"@COMMON_NAME":349923492,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401367","@rel":"self"},"access_key":349923492,"expiration_date":1760735743}}
+2025-10-10 23:16:13,496 [INFO] - New SDM session token acquired successfully: 349923492, expires at 1760735743
+2025-10-10 23:16:13,496 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:16:13,523 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:16:13,524 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:16:13,524 [ERROR] - [PRIORITIES] Error while fetching priorities: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 44, in search_priorities
+    pri_id = p.get("id") or p.get("persistent_id") or None
+             ^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-10-10 23:17:35,485 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:18:24,242 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:18:24,242 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:18:24,298 [INFO] - SDM login response: 201 {"rest_access":{"@id":401368,"@REL_ATTR":401368,"@COMMON_NAME":162470783,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401368","@rel":"self"},"access_key":162470783,"expiration_date":1760735874}}
+2025-10-10 23:18:24,298 [INFO] - New SDM session token acquired successfully: 162470783, expires at 1760735874
+2025-10-10 23:18:24,298 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:18:24,324 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:18:24,324 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:18:24,324 [INFO] - [PRIORITIES] Parsing JSON response from SDM...
+2025-10-10 23:18:24,325 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:18:24,335 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:18:24,335 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:18:24,362 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:18:24,362 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:18:24,363 [INFO] - [PRIORITIES] Parsing JSON response from SDM...
+2025-10-10 23:18:24,363 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:18:24,372 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:18:24,372 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:18:24,395 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:18:24,395 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:18:24,395 [INFO] - [PRIORITIES] Parsing JSON response from SDM...
+2025-10-10 23:18:24,396 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:18:41,637 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:18:41,637 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:18:41,682 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:18:41,683 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:18:41,683 [INFO] - [PRIORITIES] Parsing JSON response from SDM...
+2025-10-10 23:18:41,683 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:19:15,824 [INFO] - [PRIORITIES] Fetching priorities from SDM (attrs=id,label)
+2025-10-10 23:19:15,824 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?attrs=id,label params=None
+2025-10-10 23:19:15,864 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:19:15,865 [INFO] - [PRIORITIES] SDM responded: 200
+2025-10-10 23:19:15,865 [INFO] - [PRIORITIES] Parsing JSON response from SDM...
+2025-10-10 23:19:15,865 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:20:27,497 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:20:38,423 [INFO] - [PRIORITIES] Fetching priorities (attrs=id,label, size=50)
+2025-10-10 23:20:38,423 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:20:38,485 [INFO] - SDM login response: 201 {"rest_access":{"@id":401369,"@REL_ATTR":401369,"@COMMON_NAME":279534902,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401369","@rel":"self"},"access_key":279534902,"expiration_date":1760736008}}
+2025-10-10 23:20:38,485 [INFO] - New SDM session token acquired successfully: 279534902, expires at 1760736008
+2025-10-10 23:20:38,485 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,label&size=50 params=None
+2025-10-10 23:20:38,511 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:20:38,511 [INFO] - [PRIORITIES] Parsed 0 priorities from SDM
+2025-10-10 23:21:42,253 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:21:47,481 [INFO] - [PRIORITIES] Fetching priorities (attrs=id,label, size=50, debug=True)
+2025-10-10 23:21:47,482 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:21:47,546 [INFO] - SDM login response: 201 {"rest_access":{"@id":401370,"@REL_ATTR":401370,"@COMMON_NAME":1572646929,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401370","@rel":"self"},"access_key":1572646929,"expiration_date":1760736078}}
+2025-10-10 23:21:47,546 [INFO] - New SDM session token acquired successfully: 1572646929, expires at 1760736078
+2025-10-10 23:21:47,546 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,label&size=50 params=None
+2025-10-10 23:21:47,573 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:21:47,573 [INFO] - [PRIORITIES] SDM responded 200, 786 bytes
+2025-10-10 23:23:13,964 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:23:17,809 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:23:32,959 [INFO] - [PRIORITIES] Fetching priorities (attrs=id,common_name, size=50, debug=False)
+2025-10-10 23:23:32,959 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:23:33,015 [INFO] - SDM login response: 201 {"rest_access":{"@id":401371,"@REL_ATTR":401371,"@COMMON_NAME":1733552288,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401371","@rel":"self"},"access_key":1733552288,"expiration_date":1760736183}}
+2025-10-10 23:23:33,015 [INFO] - New SDM session token acquired successfully: 1733552288, expires at 1760736183
+2025-10-10 23:23:33,015 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:23:33,040 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:23:33,040 [INFO] - [PRIORITIES] SDM responded 200, 786 bytes
+2025-10-10 23:23:33,040 [ERROR] - [PRIORITIES] Error: not well-formed (invalid token): line 1, column 0
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 38, in search_priorities
+    data = xmltodict.parse(body)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/venv/lib/python3.12/site-packages/xmltodict.py", line 368, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 0
+2025-10-10 23:24:32,820 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:24:34,034 [INFO] - [PRIORITIES] Fetching priorities (attrs=id,common_name, size=50, debug=False)
+2025-10-10 23:24:34,034 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:24:34,098 [INFO] - SDM login response: 201 {"rest_access":{"@id":401372,"@REL_ATTR":401372,"@COMMON_NAME":1469201275,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401372","@rel":"self"},"access_key":1469201275,"expiration_date":1760736244}}
+2025-10-10 23:24:34,099 [INFO] - New SDM session token acquired successfully: 1469201275, expires at 1760736244
+2025-10-10 23:24:34,099 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:24:34,126 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:24:34,126 [INFO] - [PRIORITIES] SDM responded 200, 786 bytes
+2025-10-10 23:24:34,127 [ERROR] - [PRIORITIES] Error: not well-formed (invalid token): line 1, column 0
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 38, in search_priorities
+    data = xmltodict.parse(body)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/venv/lib/python3.12/site-packages/xmltodict.py", line 368, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 0
+2025-10-10 23:25:56,596 [INFO] - GET http://10.11.35.35:8050/caisd-rest/status params=None
+2025-10-10 23:25:56,601 [INFO] - Response 404: 
+2025-10-10 23:28:33,837 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:28:40,070 [INFO] - [PRIORITIES] Calling SDM: pri?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:28:40,070 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:28:40,138 [INFO] - SDM login response: 201 {"rest_access":{"@id":401373,"@REL_ATTR":401373,"@COMMON_NAME":2121738594,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401373","@rel":"self"},"access_key":2121738594,"expiration_date":1760736490}}
+2025-10-10 23:28:40,138 [INFO] - New SDM session token acquired successfully: 2121738594, expires at 1760736490
+2025-10-10 23:28:40,138 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:28:40,167 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:28:40,167 [INFO] - [PRIORITIES] SDM responded 200 (786 bytes)
+2025-10-10 23:28:40,167 [WARNING] - [PRIORITIES] Non-XML response from SDM: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@hre
+2025-10-10 23:28:40,167 [ERROR] - [PRIORITIES] Error: not well-formed (invalid token): line 1, column 0
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 50, in search_priorities
+    data = xmltodict.parse(body)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/venv/lib/python3.12/site-packages/xmltodict.py", line 368, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 0
+2025-10-10 23:31:05,421 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:31:11,394 [INFO] - [PRIORITIES] Calling SDM: pri?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:31:11,395 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:31:11,449 [INFO] - SDM login response: 201 {"rest_access":{"@id":401374,"@REL_ATTR":401374,"@COMMON_NAME":1879956541,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401374","@rel":"self"},"access_key":1879956541,"expiration_date":1760736641}}
+2025-10-10 23:31:11,450 [INFO] - New SDM session token acquired successfully: 1879956541, expires at 1760736641
+2025-10-10 23:31:11,450 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:31:11,474 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:31:11,474 [INFO] - [PRIORITIES] SDM responded 200 (786 bytes)
+2025-10-10 23:31:11,474 [INFO] - [PRIORITIES] Detected JSON response from SDM.
+2025-10-10 23:31:11,475 [INFO] - [PRIORITIES] Parsed 6 priorities from SDM
+2025-10-10 23:41:47,172 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:41:51,338 [INFO] - [PRI] Calling SDM: pri?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:41:51,338 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:41:51,458 [INFO] - SDM login response: 201 {"rest_access":{"@id":401375,"@REL_ATTR":401375,"@COMMON_NAME":2039288652,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401375","@rel":"self"},"access_key":2039288652,"expiration_date":1760737281}}
+2025-10-10 23:41:51,458 [INFO] - New SDM session token acquired successfully: 2039288652, expires at 1760737281
+2025-10-10 23:41:51,459 [INFO] - GET http://10.11.35.35:8050/caisd-rest/pri?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:41:51,484 [INFO] - Response 200: {"collection_pri":{"@COUNT":6,"@START":1,"@TOTAL_COUNT":6,"pri":[{"@id":500,"@REL_ATTR":1,"@COMMON_NAME":5,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/500","@rel":"self"}},{"@id":501,"@REL_ATTR":2,"@COMMON_NAME":4,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri/501","@rel":"self"}},{"@id":502,"@REL_ATTR":3,"@COMMON_NAME":3,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/pri
+2025-10-10 23:41:51,484 [INFO] - [PRI] SDM responded 200 (786 bytes)
+2025-10-10 23:41:51,484 [INFO] - [PRI] Detected JSON response.
+2025-10-10 23:41:51,484 [INFO] - [PRI] Parsed 6 records.
+2025-10-10 23:41:56,752 [INFO] - [STAT] Calling SDM: stat?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:41:56,753 [INFO] - GET http://10.11.35.35:8050/caisd-rest/stat?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:41:56,761 [INFO] - Response 404: 
+2025-10-10 23:41:56,761 [INFO] - [STAT] SDM responded 404 (0 bytes)
+2025-10-10 23:41:56,761 [ERROR] - [STAT] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 26, in _search_sdm_object
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:42:05,893 [INFO] - [CR_CAT] Calling SDM: cr_cat?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:42:05,893 [INFO] - GET http://10.11.35.35:8050/caisd-rest/cr_cat?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:42:05,900 [INFO] - Response 404: 
+2025-10-10 23:42:05,900 [INFO] - [CR_CAT] SDM responded 404 (0 bytes)
+2025-10-10 23:42:05,900 [ERROR] - [CR_CAT] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 26, in _search_sdm_object
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:42:11,160 [INFO] - [URG] Calling SDM: urg?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:42:11,160 [INFO] - GET http://10.11.35.35:8050/caisd-rest/urg?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:42:12,263 [INFO] - Response 200: {"collection_urg":{"@COUNT":5,"@START":1,"@TOTAL_COUNT":5,"urg":[{"@id":1100,"@REL_ATTR":0,"@COMMON_NAME":"1-When Possible","link":{"@href":"http://10.11.35.35:8050/caisd-rest/urg/1100","@rel":"self"}},{"@id":1101,"@REL_ATTR":1,"@COMMON_NAME":"2-Soon","link":{"@href":"http://10.11.35.35:8050/caisd-rest/urg/1101","@rel":"self"}},{"@id":1102,"@REL_ATTR":2,"@COMMON_NAME":"3-Quickly","link":{"@href":"
+2025-10-10 23:42:12,263 [INFO] - [URG] SDM responded 200 (732 bytes)
+2025-10-10 23:42:12,263 [INFO] - [URG] Detected JSON response.
+2025-10-10 23:42:12,263 [INFO] - [URG] Parsed 5 records.
+2025-10-10 23:44:05,979 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:44:10,725 [INFO] - [CRSTAT] Calling SDM: crstat?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:44:10,726 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:44:10,790 [INFO] - SDM login response: 201 {"rest_access":{"@id":401376,"@REL_ATTR":401376,"@COMMON_NAME":814417447,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401376","@rel":"self"},"access_key":814417447,"expiration_date":1760737421}}
+2025-10-10 23:44:10,790 [INFO] - New SDM session token acquired successfully: 814417447, expires at 1760737421
+2025-10-10 23:44:10,790 [INFO] - GET http://10.11.35.35:8050/caisd-rest/crstat?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:44:10,794 [INFO] - Response 404: 
+2025-10-10 23:44:10,794 [INFO] - [CRSTAT] SDM responded 404 (0 bytes)
+2025-10-10 23:44:10,794 [ERROR] - [CRSTAT] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 26, in _search_sdm_object
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:44:10,802 [INFO] - [CRCAT] Calling SDM: crcat?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:44:10,802 [INFO] - GET http://10.11.35.35:8050/caisd-rest/crcat?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:44:10,805 [INFO] - Response 404: 
+2025-10-10 23:44:10,806 [INFO] - [CRCAT] SDM responded 404 (0 bytes)
+2025-10-10 23:44:10,806 [ERROR] - [CRCAT] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 26, in _search_sdm_object
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:44:10,814 [INFO] - [CRTYPE] Calling SDM: crtype?OP=GET_LIST&attrs=id,common_name&size=50
+2025-10-10 23:44:10,815 [INFO] - GET http://10.11.35.35:8050/caisd-rest/crtype?OP=GET_LIST&attrs=id,common_name&size=50 params=None
+2025-10-10 23:44:10,818 [INFO] - Response 404: 
+2025-10-10 23:44:10,818 [INFO] - [CRTYPE] SDM responded 404 (0 bytes)
+2025-10-10 23:44:10,818 [ERROR] - [CRTYPE] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/priorities.py", line 26, in _search_sdm_object
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:49:36,504 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:49:50,582 [INFO] - [OBJECTS] Fetching available SDM REST objects...
+2025-10-10 23:49:50,582 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:49:50,649 [INFO] - SDM login response: 201 {"rest_access":{"@id":401377,"@REL_ATTR":401377,"@COMMON_NAME":113395678,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401377","@rel":"self"},"access_key":113395678,"expiration_date":1760737761}}
+2025-10-10 23:49:50,649 [INFO] - New SDM session token acquired successfully: 113395678, expires at 1760737761
+2025-10-10 23:49:50,649 [INFO] - GET http://10.11.35.35:8050/caisd-rest/ params=None
+2025-10-10 23:49:50,653 [INFO] - Response 404: 
+2025-10-10 23:49:50,653 [ERROR] - [OBJECTS] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/objects.py", line 20, in list_sdm_objects
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:54:02,538 [INFO] - === SDM Proxy Service Started ===
+2025-10-10 23:54:06,492 [INFO] - [OBJECTS] Fetching SDM objects from /majic...
+2025-10-10 23:54:06,492 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-10 23:54:06,585 [INFO] - SDM login response: 201 {"rest_access":{"@id":401378,"@REL_ATTR":401378,"@COMMON_NAME":1291885241,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401378","@rel":"self"},"access_key":1291885241,"expiration_date":1760738017}}
+2025-10-10 23:54:06,586 [INFO] - New SDM session token acquired successfully: 1291885241, expires at 1760738017
+2025-10-10 23:54:06,586 [INFO] - GET http://10.11.35.35:8050/caisd-rest/majic params=None
+2025-10-10 23:54:06,590 [INFO] - Response 404: 
+2025-10-10 23:54:06,591 [INFO] - [OBJECTS] SDM /majic responded 404 (0 bytes)
+2025-10-10 23:54:06,591 [ERROR] - [OBJECTS] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/objects.py", line 20, in list_sdm_objects
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:56:53,134 [INFO] - [OBJECTS] Fetching SDM objects from /majic...
+2025-10-10 23:56:53,135 [INFO] - GET http://10.11.35.35:8050/caisd-rest/majic params=None
+2025-10-10 23:56:53,139 [INFO] - Response 404: 
+2025-10-10 23:56:53,140 [INFO] - [OBJECTS] SDM /majic responded 404 (0 bytes)
+2025-10-10 23:56:53,140 [ERROR] - [OBJECTS] Error: 404: SDM returned error 404
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/objects.py", line 20, in list_sdm_objects
+    raise HTTPException(status_code=response.status_code, detail=f"SDM returned error {response.status_code}")
+fastapi.exceptions.HTTPException: 404: SDM returned error 404
+2025-10-10 23:59:59,145 [INFO] - === SDM Proxy Service Started ===
+2025-10-11 00:00:02,268 [INFO] - [OBJECTS] Returning static SDM object register (34 items)
+2025-10-11 00:50:46,852 [INFO] - [CR] Listing with attrs=id,ref_num,summary
+2025-10-11 00:50:46,853 [INFO] - Fetching new SDM session token (JSON mode)...
+2025-10-11 00:50:46,922 [INFO] - SDM login response: 201 {"rest_access":{"@id":401379,"@REL_ATTR":401379,"@COMMON_NAME":642179720,"link":{"@href":"http://10.11.35.35:8050/caisd-rest/rest_access/401379","@rel":"self"},"access_key":642179720,"expiration_date":1760741417}}
+2025-10-11 00:50:46,922 [INFO] - New SDM session token acquired successfully: 642179720, expires at 1760741417
+2025-10-11 00:50:46,922 [INFO] - GET http://10.11.35.35:8050/caisd-rest/cr?OP=GET_LIST&attrs=id,ref_num,summary&size=100 params=None
+2025-10-11 00:50:48,350 [INFO] - Response 200: {"collection_cr":{"@COUNT":100,"@START":1,"@TOTAL_COUNT":463,"link":[{"@href":"http://10.11.35.35:8050/caisd-rest/cr?start=101&size=100","@rel":"next"},{"@href":"http://10.11.35.35:8050/caisd-rest/cr?start=1&size=463","@rel":"all"}],"cr":[{"@id":2800,"@REL_ATTR":"cr:2800","@COMMON_NAME":"SD:01","link":{"@href":"http://10.11.35.35:8050/caisd-rest/cr/2800","@rel":"self"}},{"@id":2851,"@REL_ATTR":"cr

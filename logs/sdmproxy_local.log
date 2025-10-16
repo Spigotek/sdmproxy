@@ -1,0 +1,161 @@
+2025-10-16 12:24:19,345 [INFO] - Logger initialized. Writing to /opt/sdmproxy/logs/sdmproxy_local.log
+2025-10-16 12:24:19,390 [INFO] - 🔗 Registered router /api/incidents
+2025-10-16 12:24:19,391 [INFO] - 🔗 Registered router /api/requests
+2025-10-16 12:24:19,392 [INFO] - 🔗 Registered router /api/changes
+2025-10-16 12:24:19,393 [INFO] - 🔗 Registered router /api/issues
+2025-10-16 12:24:19,394 [INFO] - 🔗 Registered router /api/contacts
+2025-10-16 12:24:19,395 [INFO] - 🔗 Registered router /api/groups
+2025-10-16 12:24:19,396 [INFO] - 🔗 Registered router /api/locations
+2025-10-16 12:24:19,397 [INFO] - 🔗 Registered router /api/priorities
+2025-10-16 12:24:19,398 [INFO] - 🔗 Registered router /api/urgencies
+2025-10-16 12:24:19,399 [INFO] - 🔗 Registered router /api/impacts
+2025-10-16 12:24:19,400 [INFO] - 🔗 Registered router /api/categories
+2025-10-16 12:24:19,401 [INFO] - 🔗 Registered router /api/statuses
+2025-10-16 12:24:19,402 [INFO] - 🔗 Registered router /api/request_types
+2025-10-16 12:24:19,403 [INFO] - 🔗 Registered router /api/roles
+2025-10-16 12:24:19,404 [INFO] - 🔗 Registered router /api/assets
+2025-10-16 12:24:19,404 [INFO] - 🔗 Registered router /api/cis
+2025-10-16 12:24:19,405 [INFO] - ✅ Registered router /api/incidents
+2025-10-16 12:24:19,406 [INFO] - ✅ Registered router /api/requests
+2025-10-16 12:24:19,407 [INFO] - ✅ Registered router /api/changes
+2025-10-16 12:24:19,407 [INFO] - ✅ Registered router /api/issues
+2025-10-16 12:24:19,408 [INFO] - ✅ Registered router /api/contacts
+2025-10-16 12:24:19,410 [INFO] - ✅ Registered router /api/groups
+2025-10-16 12:24:19,410 [INFO] - ✅ Registered router /api/locations
+2025-10-16 12:24:19,411 [INFO] - ✅ Registered router /api/priorities
+2025-10-16 12:24:19,412 [INFO] - ✅ Registered router /api/urgencies
+2025-10-16 12:24:19,412 [INFO] - ✅ Registered router /api/impacts
+2025-10-16 12:24:19,413 [INFO] - ✅ Registered router /api/categories
+2025-10-16 12:24:19,413 [INFO] - ✅ Registered router /api/statuses
+2025-10-16 12:24:19,414 [INFO] - ✅ Registered router /api/request_types
+2025-10-16 12:24:19,415 [INFO] - ✅ Registered router /api/roles
+2025-10-16 12:24:19,415 [INFO] - ✅ Registered router /api/assets
+2025-10-16 12:24:19,416 [INFO] - ✅ Registered router /api/cis
+2025-10-16 12:24:19,416 [INFO] - === SDM Proxy Service v2.0 initialized ===
+2025-10-16 12:24:41,319 [INFO] - [SDMClient] Fetching cr list (size=10000)
+2025-10-16 12:24:41,319 [INFO] - Fetching new SDM session token (JSON)...
+2025-10-16 12:24:41,351 [ERROR] - [CR] Error in count: Authentication failed (401)
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/__init__.py", line 45, in count_records
+    data = sdm_client.get_full_list(object_name, where=where, size=10000)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 43, in get_full_list
+    data = self.call_sdm("GET", f"{object_name}", params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 14, in call_sdm
+    token = auth_manager.get_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/auth_manager.py", line 25, in get_token
+    raise Exception(f"Authentication failed ({r.status_code})")
+Exception: Authentication failed (401)
+2025-10-16 12:24:48,221 [INFO] - [SDMClient] Fetching cr list (size=10000)
+2025-10-16 12:24:48,222 [INFO] - Fetching new SDM session token (JSON)...
+2025-10-16 12:24:48,248 [ERROR] - [CR] Error in count: Authentication failed (401)
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/__init__.py", line 45, in count_records
+    data = sdm_client.get_full_list(object_name, where=where, size=10000)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 43, in get_full_list
+    data = self.call_sdm("GET", f"{object_name}", params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 14, in call_sdm
+    token = auth_manager.get_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/auth_manager.py", line 25, in get_token
+    raise Exception(f"Authentication failed ({r.status_code})")
+Exception: Authentication failed (401)
+2025-10-16 12:31:28,759 [INFO] - Logger initialized. Writing to /opt/sdmproxy/logs/sdmproxy_local.log
+2025-10-16 12:31:28,808 [INFO] - [AUTH] No valid cached token found, will fetch a new one
+2025-10-16 12:31:28,809 [INFO] - 🔗 Registered router /api/incidents
+2025-10-16 12:31:28,810 [INFO] - 🔗 Registered router /api/requests
+2025-10-16 12:31:28,811 [INFO] - 🔗 Registered router /api/changes
+2025-10-16 12:31:28,812 [INFO] - 🔗 Registered router /api/issues
+2025-10-16 12:31:28,814 [INFO] - 🔗 Registered router /api/contacts
+2025-10-16 12:31:28,815 [INFO] - 🔗 Registered router /api/groups
+2025-10-16 12:31:28,816 [INFO] - 🔗 Registered router /api/locations
+2025-10-16 12:31:28,817 [INFO] - 🔗 Registered router /api/priorities
+2025-10-16 12:31:28,818 [INFO] - 🔗 Registered router /api/urgencies
+2025-10-16 12:31:28,819 [INFO] - 🔗 Registered router /api/impacts
+2025-10-16 12:31:28,820 [INFO] - 🔗 Registered router /api/categories
+2025-10-16 12:31:28,821 [INFO] - 🔗 Registered router /api/statuses
+2025-10-16 12:31:28,822 [INFO] - 🔗 Registered router /api/request_types
+2025-10-16 12:31:28,823 [INFO] - 🔗 Registered router /api/roles
+2025-10-16 12:31:28,824 [INFO] - 🔗 Registered router /api/assets
+2025-10-16 12:31:28,824 [INFO] - 🔗 Registered router /api/cis
+2025-10-16 12:31:28,826 [INFO] - ✅ Registered router /api/incidents
+2025-10-16 12:31:28,827 [INFO] - ✅ Registered router /api/requests
+2025-10-16 12:31:28,828 [INFO] - ✅ Registered router /api/changes
+2025-10-16 12:31:28,828 [INFO] - ✅ Registered router /api/issues
+2025-10-16 12:31:28,829 [INFO] - ✅ Registered router /api/contacts
+2025-10-16 12:31:28,830 [INFO] - ✅ Registered router /api/groups
+2025-10-16 12:31:28,830 [INFO] - ✅ Registered router /api/locations
+2025-10-16 12:31:28,831 [INFO] - ✅ Registered router /api/priorities
+2025-10-16 12:31:28,832 [INFO] - ✅ Registered router /api/urgencies
+2025-10-16 12:31:28,832 [INFO] - ✅ Registered router /api/impacts
+2025-10-16 12:31:28,833 [INFO] - ✅ Registered router /api/categories
+2025-10-16 12:31:28,833 [INFO] - ✅ Registered router /api/statuses
+2025-10-16 12:31:28,834 [INFO] - ✅ Registered router /api/request_types
+2025-10-16 12:31:28,835 [INFO] - ✅ Registered router /api/roles
+2025-10-16 12:31:28,835 [INFO] - ✅ Registered router /api/assets
+2025-10-16 12:31:28,836 [INFO] - ✅ Registered router /api/cis
+2025-10-16 12:31:28,836 [INFO] - === SDM Proxy Service v2.0 initialized ===
+2025-10-16 12:31:59,055 [INFO] - [SDMClient] Fetching cr list (size=10000)
+2025-10-16 12:31:59,056 [INFO] - [AUTH] Requesting new SDM token via XML login at http://10.11.35.35:8050/caisd-rest/rest_access
+2025-10-16 12:31:59,072 [ERROR] - [AUTH] SDM XML login failed (401): <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<error>
+    <message>Invalid Authorization message header.</message>
+    <status>401</status>
+</error>
+
+2025-10-16 12:31:59,072 [ERROR] - [CR] Error in count: SDM XML login failed (401)
+Traceback (most recent call last):
+  File "/opt/sdmproxy/app/routers/__init__.py", line 45, in count_records
+    data = sdm_client.get_full_list(object_name, where=where, size=10000)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 43, in get_full_list
+    data = self.call_sdm("GET", f"{object_name}", params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/sdm_client.py", line 14, in call_sdm
+    token = auth_manager.get_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/auth_manager.py", line 51, in get_token
+    return self.fetch_new_token()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sdmproxy/app/auth_manager.py", line 68, in fetch_new_token
+    raise Exception(f"SDM XML login failed ({resp.status_code})")
+Exception: SDM XML login failed (401)
+2025-10-16 12:57:08,373 [INFO] - Logger initialized. Writing to /opt/sdmproxy/logs/sdmproxy_local.log
+2025-10-16 12:57:08,419 [INFO] - [AUTH] No valid cached token found — will request new one
+2025-10-16 12:57:08,421 [INFO] - 🔗 Registered router /api/incidents
+2025-10-16 12:57:08,422 [INFO] - 🔗 Registered router /api/requests
+2025-10-16 12:57:08,423 [INFO] - 🔗 Registered router /api/changes
+2025-10-16 12:57:08,424 [INFO] - 🔗 Registered router /api/issues
+2025-10-16 12:57:08,425 [INFO] - 🔗 Registered router /api/contacts
+2025-10-16 12:57:08,426 [INFO] - 🔗 Registered router /api/groups
+2025-10-16 12:57:08,427 [INFO] - 🔗 Registered router /api/locations
+2025-10-16 12:57:08,428 [INFO] - 🔗 Registered router /api/priorities
+2025-10-16 12:57:08,429 [INFO] - 🔗 Registered router /api/urgencies
+2025-10-16 12:57:08,430 [INFO] - 🔗 Registered router /api/impacts
+2025-10-16 12:57:08,431 [INFO] - 🔗 Registered router /api/categories
+2025-10-16 12:57:08,432 [INFO] - 🔗 Registered router /api/statuses
+2025-10-16 12:57:08,433 [INFO] - 🔗 Registered router /api/request_types
+2025-10-16 12:57:08,433 [INFO] - 🔗 Registered router /api/roles
+2025-10-16 12:57:08,434 [INFO] - 🔗 Registered router /api/assets
+2025-10-16 12:57:08,435 [INFO] - 🔗 Registered router /api/cis
+2025-10-16 12:57:08,436 [INFO] - ✅ Registered router /api/incidents
+2025-10-16 12:57:08,438 [INFO] - ✅ Registered router /api/requests
+2025-10-16 12:57:08,438 [INFO] - ✅ Registered router /api/changes
+2025-10-16 12:57:08,439 [INFO] - ✅ Registered router /api/issues
+2025-10-16 12:57:08,440 [INFO] - ✅ Registered router /api/contacts
+2025-10-16 12:57:08,440 [INFO] - ✅ Registered router /api/groups
+2025-10-16 12:57:08,441 [INFO] - ✅ Registered router /api/locations
+2025-10-16 12:57:08,441 [INFO] - ✅ Registered router /api/priorities
+2025-10-16 12:57:08,442 [INFO] - ✅ Registered router /api/urgencies
+2025-10-16 12:57:08,443 [INFO] - ✅ Registered router /api/impacts
+2025-10-16 12:57:08,443 [INFO] - ✅ Registered router /api/categories
+2025-10-16 12:57:08,444 [INFO] - ✅ Registered router /api/statuses
+2025-10-16 12:57:08,444 [INFO] - ✅ Registered router /api/request_types
+2025-10-16 12:57:08,445 [INFO] - ✅ Registered router /api/roles
+2025-10-16 12:57:08,446 [INFO] - ✅ Registered router /api/assets
+2025-10-16 12:57:08,446 [INFO] - ✅ Registered router /api/cis
+2025-10-16 12:57:08,447 [INFO] - === SDM Proxy Service v2.0 initialized ===

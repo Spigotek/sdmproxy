@@ -1,0 +1,11 @@
+INFO:     10.11.36.14:57750 - "GET /api/health/full HTTP/1.1" 200 OK
+INFO:     10.11.36.14:56064 - "POST /api/incidents/count HTTP/1.1" 500 Internal Server Error
+INFO:     10.11.36.14:56066 - "POST /api/incidents/count HTTP/1.1" 500 Internal Server Error
+INFO:     10.11.36.14:59188 - "POST /api/incidents/count HTTP/1.1" 500 Internal Server Error
+INFO:     10.11.36.14:42080 - "POST /api/incidents/query HTTP/1.1" 404 Not Found
+INFO:     10.11.36.14:33590 - "POST /api/incidents/query HTTP/1.1" 404 Not Found
+INFO:     10.11.36.14:55000 - "POST /api/incidents/query HTTP/1.1" 404 Not Found
+INFO:     10.11.201.1:58406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.11.201.1:58406 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.11.36.14:51308 - "POST /api/generic/query HTTP/1.1" 404 Not Found
+INFO:     10.11.36.14:39320 - "POST /api/generic/query HTTP/1.1" 500 Internal Server Error

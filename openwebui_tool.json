@@ -1,0 +1,24 @@
+{
+  "name": "SDM Proxy",
+  "description": "Externý nástroj pre OpenWebUI, ktorý prepája LLM s Broadcom CA SDM 17.4.",
+  "type": "http",
+  "version": "1.0.1",
+  "endpoints": [
+    {
+      "name": "Vyhľadanie priorít",
+      "description": "Zobrazí všetky priority podporované v SDM.",
+      "url": "http://10.11.36.14:3333/api/priorities/search",
+      "method": "POST",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "attrs": {
+            "type": "string",
+            "description": "Zoznam polí na načítanie (napr. id,label)",
+            "default": "id,label"
+          }
+        }
+      }
+    }
+  ]
+}

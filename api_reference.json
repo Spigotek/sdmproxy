@@ -1,0 +1,15 @@
+{
+  "name": "sdmproxy",
+  "description": "Interface to Broadcom CA Service Desk Manager via proxy.",
+  "endpoints": {
+    "/api/incidents/search": "List all incidents (supports attrs, filters)",
+    "/api/incidents/create": "Create a new incident",
+    "/api/incidents/update/{id}": "Update an existing incident",
+    "/api/incidents/delete/{id}": "Delete an incident",
+    "/api/priorities/search": "List all priority levels",
+    "/api/statuses/search": "List request statuses",
+    "/api/categories/search": "List all request areas",
+    "/api/objects/list": "Return static list of all SDM REST objects",
+    "/api/meta": "Return proxy metadata for LLM orchestration"
+  }
+}
