@@ -9,3 +9,7 @@ INFO:     10.11.201.1:58406 - "GET /docs HTTP/1.1" 200 OK
 INFO:     10.11.201.1:58406 - "GET /openapi.json HTTP/1.1" 200 OK
 INFO:     10.11.36.14:51308 - "POST /api/generic/query HTTP/1.1" 404 Not Found
 INFO:     10.11.36.14:39320 - "POST /api/generic/query HTTP/1.1" 500 Internal Server Error
+INFO:     10.11.1.31:53777 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.11.1.31:53785 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.11.1.31:53985 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.11.1.31:53994 - "GET /openapi.json HTTP/1.1" 200 OK
