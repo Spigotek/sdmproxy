@@ -1,23 +1,18 @@
-#!/bin/bash
+k#!/bin/bash
+# Git sync script using SSH authentication
+
 cd /opt/sdmproxy || exit
 
-echo "🔍 Checking for changes..."
-git status
-
-read -p "➡️  Continue with add + commit + push? (y/n): " CONFIRM
-if [ "$CONFIRM" != "y" ]; then
-  echo "❌ Cancelled."
-  exit 0
-fi
-
+echo "📦 Adding changes..."
 git add .
+
 read -p "💬 Commit message: " MSG
 git commit -m "$MSG"
 
 echo "🔄 Pulling remote changes..."
-git pull --rebase
+git pull --rebase origin main
 
-echo "🚀 Pushing to GitHub..."
-git push
+echo "🚀 Pushing to GitHub via SSH..."
+git push origin main
 
 echo "✅ Sync complete!"
